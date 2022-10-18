@@ -10,12 +10,10 @@ int print_last_digit(int n)
 {
 	int divisor = n % 10;
 
-	if (n == 0)
-		return (0);
-	else if (n < 10)
-	{
-		return (n);
-	}
-	else
-		return (divisor);
+	if (divisor < 0)
+		divisor += -1;
+
+	_putchar(divisor + '0');
+
+	return (divisor);
 }
