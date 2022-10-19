@@ -9,15 +9,21 @@
 int main(void)
 {
 	int i;
-	long int fib_sequence[98];
+	long int fib_sequence[100];
 
 	fib_sequence[0] = 0;
 	fib_sequence[1] = 1;
 
-	for (i = 2; i < 98; i++)
+	for (i = 2; i < 100; i++)
 	{
 		fib_sequence[i] = fib_sequence[i - 1] + fib_sequence[i - 2];
-		printf("%ld, ", fib_sequence[i]);
+
+		if (i == 99)
+		{
+			printf("%ld", fib_sequence[i]);
+		}
+		else
+			printf("%ld, ", fib_sequence[i]);
 	}
 	printf("\n");
 
