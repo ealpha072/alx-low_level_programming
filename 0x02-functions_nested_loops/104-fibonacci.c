@@ -17,7 +17,6 @@ int main(void)
 	for (i = 2; i < 100; i++)
 	{
 		fib_sequence[i] = fib_sequence[i - 1] + fib_sequence[i - 2];
-
 		if (i == 99)
 		{
 			printf("%ld", fib_sequence[i]);
