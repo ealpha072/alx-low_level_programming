@@ -20,4 +20,6 @@ int main(void)
 		printf("%ld, ", fib_sequence[i]);
 	}
 	printf("\n");
+
+	return (0);
 }
