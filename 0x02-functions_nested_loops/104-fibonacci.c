@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i;
-	long long int fib_sequence[100];
+	unsigned long int fib_sequence[100];
 
 	fib_sequence[0] = 0;
 	fib_sequence[1] = 1;
