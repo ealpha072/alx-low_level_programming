@@ -10,7 +10,7 @@ int main(void)
 {
 	int i;
 	long int fib_sequence[52];
-	long int sum = 2;
+	long int sum = 0;
 
 	fib_sequence[0] = 0;
 	fib_sequence[1] = 1;
