@@ -1,4 +1,4 @@
-#include <stdio.h>
+  <stdio.h>
 
 /* Using constructors in C */
 void main_constructor(void) __attribute__((constructor));
